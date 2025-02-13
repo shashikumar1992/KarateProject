@@ -1,0 +1,9 @@
+{
+    "AccountNumber":"9854562112542112",
+    "RoutingNumber":"121000358",
+    "PartnerId":"MTI3",
+    "Payload":{
+       "PublicKey":"{{consumerPublicKey}}",
+       "AccessToken":"{{consumerAccessToken}}"
+    }
+ }

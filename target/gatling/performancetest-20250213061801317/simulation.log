@@ -1,0 +1,69 @@
+RUN	Performance.PerformanceTest	performancetest	1739427481317	 	3.9.5
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427482582
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427482582
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427482582
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427482582
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427483432
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427483943
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427484423
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427484762
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427485084
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427485418
+REQUEST		POST /workspaces	1739427485037	1739427486884	OK	 
+REQUEST		POST /workspaces	1739427485033	1739427486832	OK	 
+REQUEST		POST /workspaces	1739427485030	1739427486839	OK	 
+REQUEST		POST /workspaces	1739427485031	1739427486915	OK	 
+REQUEST		POST /workspaces	1739427485028	1739427486832	OK	 
+REQUEST		POST /workspaces	1739427485029	1739427486955	OK	 
+REQUEST		POST /workspaces	1739427485035	1739427486858	OK	 
+REQUEST		POST /workspaces	1739427485036	1739427486869	OK	 
+REQUEST		GET /workspaces/{wid}	1739427486957	1739427487992	OK	 
+REQUEST		GET /workspaces/{wid}	1739427486953	1739427488027	OK	 
+REQUEST		GET /workspaces/{wid}	1739427486964	1739427488090	OK	 
+REQUEST		GET /workspaces/{wid}	1739427486942	1739427488040	OK	 
+REQUEST		GET /workspaces/{wid}	1739427486941	1739427488163	OK	 
+REQUEST		GET /workspaces/{wid}	1739427486988	1739427488302	OK	 
+REQUEST		GET /workspaces/{wid}	1739427486940	1739427488413	OK	 
+REQUEST		GET /workspaces/{wid}	1739427486973	1739427488891	OK	 
+REQUEST		PUT /workspaces/{wid}	1739427488039	1739427489088	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427489101	1739427490212	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427490225
+REQUEST		PUT /workspaces/{wid}	1739427488003	1739427489061	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427489070	1739427490253	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427490261
+REQUEST		PUT /workspaces/{wid}	1739427488054	1739427489170	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427489181	1739427490276	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427490287
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427490296
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427490296
+REQUEST		PUT /workspaces/{wid}	1739427488102	1739427489156	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427489165	1739427490300	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427490308
+REQUEST		PUT /workspaces/{wid}	1739427488173	1739427489231	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427489246	1739427490334	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427490344
+REQUEST		PUT /workspaces/{wid}	1739427488312	1739427489324	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427489334	1739427490400	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427490406
+REQUEST		PUT /workspaces/{wid}	1739427488426	1739427489663	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427489673	1739427490823	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427490829
+REQUEST		PUT /workspaces/{wid}	1739427488901	1739427489946	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427489955	1739427491001	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427491009
+REQUEST		POST /workspaces	1739427490328	1739427491428	OK	 
+REQUEST		GET /workspaces/{wid}	1739427491438	1739427492420	KO	src/test/java/PostmanAPI/Performance/TestCreateUpdateDeleteWorkSpaceAPI.feature:32 status 200
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427492445
+REQUEST		POST /workspaces	1739427490245	1739427491312	OK	 
+REQUEST		GET /workspaces/{wid}	1739427491323	1739427492476	KO	src/test/java/PostmanAPI/Performance/TestCreateUpdateDeleteWorkSpaceAPI.feature:32 status 200
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427492484
+REQUEST		POST /workspaces	1739427490279	1739427491383	OK	 
+REQUEST		POST /workspaces	1739427490333	1739427491449	OK	 
+REQUEST		GET /workspaces/{wid}	1739427491395	1739427492599	OK	 
+REQUEST		GET /workspaces/{wid}	1739427491463	1739427493158	OK	 
+REQUEST		PUT /workspaces/{wid}	1739427492609	1739427493730	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427493738	1739427494804	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427494811
+REQUEST		PUT /workspaces/{wid}	1739427493171	1739427494275	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427494285	1739427495367	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427495374

@@ -1,0 +1,8 @@
+{
+    "workspace": {
+        "name": "myWorkSpace",
+        "type": "personal",
+        "description": "myDescription",
+        "visibilityStatus": "MyvisibilityStatus"
+    }
+}

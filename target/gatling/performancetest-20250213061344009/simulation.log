@@ -1,0 +1,69 @@
+RUN	Performance.PerformanceTest	performancetest	1739427224009	 	3.9.5
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427225100
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427225100
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427225100
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427225120
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427226117
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427226617
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427227105
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427227451
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427227776
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427228105
+REQUEST		POST /workspaces	1739427227328	1739427229222	OK	 
+REQUEST		POST /workspaces	1739427227334	1739427229243	OK	 
+REQUEST		POST /workspaces	1739427227339	1739427229744	OK	 
+REQUEST		POST /workspaces	1739427227478	1739427229068	OK	 
+REQUEST		GET /workspaces/{wid}	1739427229238	1739427230323	OK	 
+REQUEST		GET /workspaces/{wid}	1739427229265	1739427230439	OK	 
+REQUEST		POST /workspaces	1739427227328	1739427230454	OK	 
+REQUEST		POST /workspaces	1739427227332	1739427230950	OK	 
+REQUEST		GET /workspaces/{wid}	1739427229116	1739427231240	OK	 
+REQUEST		PUT /workspaces/{wid}	1739427230341	1739427231431	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427231442	1739427232561	OK	 
+REQUEST		PUT /workspaces/{wid}	1739427230453	1739427231536	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427231548	1739427232755	OK	 
+REQUEST		GET /workspaces/{wid}	1739427230469	1739427231703	OK	 
+REQUEST		GET /workspaces/{wid}	1739427229765	1739427230972	OK	 
+REQUEST		GET /workspaces/{wid}	1739427230969	1739427232133	OK	 
+REQUEST		PUT /workspaces/{wid}	1739427231250	1739427232278	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427232293	1739427233398	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427233406
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427233409
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427233411
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427233411
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739427233411
+REQUEST		POST /workspaces	1739427227326	1739427231019	OK	 
+REQUEST		PUT /workspaces/{wid}	1739427231715	1739427232779	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427232789	1739427233894	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427233902
+REQUEST		PUT /workspaces/{wid}	1739427230992	1739427232841	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427232852	1739427233909	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427233915
+REQUEST		PUT /workspaces/{wid}	1739427232148	1739427233177	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427233186	1739427234228	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427234235
+REQUEST		GET /workspaces/{wid}	1739427231038	1739427233448	OK	 
+REQUEST		POST /workspaces	1739427227336	1739427233138	OK	 
+REQUEST		POST /workspaces	1739427232792	1739427234077	OK	 
+REQUEST		POST /workspaces	1739427233426	1739427234492	OK	 
+REQUEST		GET /workspaces/{wid}	1739427234505	1739427235420	KO	src/test/java/PostmanAPI/Performance/TestCreateUpdateDeleteWorkSpaceAPI.feature:32 status 200
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427235448
+REQUEST		POST /workspaces	1739427232585	1739427233788	OK	 
+REQUEST		PUT /workspaces/{wid}	1739427233459	1739427234699	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427234709	1739427235758	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427235765
+REQUEST		POST /workspaces	1739427233914	1739427235076	OK	 
+REQUEST		GET /workspaces/{wid}	1739427235088	1739427235939	KO	src/test/java/PostmanAPI/Performance/TestCreateUpdateDeleteWorkSpaceAPI.feature:32 status 200
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427235947
+REQUEST		GET /workspaces/{wid}	1739427234088	1739427235164	OK	 
+REQUEST		GET /workspaces/{wid}	1739427233151	1739427235111	OK	 
+REQUEST		GET /workspaces/{wid}	1739427233799	1739427235561	OK	 
+REQUEST		PUT /workspaces/{wid}	1739427235120	1739427236222	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427236234	1739427237269	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427237276
+REQUEST		PUT /workspaces/{wid}	1739427235183	1739427236197	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427236208	1739427237317	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427237326
+REQUEST		PUT /workspaces/{wid}	1739427235571	1739427236586	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739427236593	1739427237663	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739427237671

@@ -1,0 +1,9 @@
+{
+    "DepositAmount":"0.09",
+    "WithdrawalAmount":"0.08",
+    "partnerId":"MTI3",
+    "Payload":{
+        "PublicKey":"{{consumerPublicKey}}",
+       "AccessToken":"{{consumerAccessToken}}"
+    }
+ }
