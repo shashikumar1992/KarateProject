@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"f0eae099-8bed-461f-9ba7-3ff03d9f13a7",karate_version:"1.5.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>PostmanAPI.APITEST.CollectionFeature.TestCreateUpdateGetAndDeleteCollections</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-02-13 06:24:15 PM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>Test create, get, update and delete the Collection with a positive scenario.</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">PostmanAPI/APITEST/CollectionFeature/TestCreateUpdateGetAndDeleteCollections.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Collections Management</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">Test create, get, update and delete the Collection with a positive scenario.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>6433</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url apiURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">18:23:55.208 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def CollectionRequest = read(&#39;classpath:helpers/JSON/CollectionRequestData.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">108</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def DataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set CollectionRequest.collection.info.name = DataGenerator.getRandomArticleValues().name</span>
+      </div>
+    </div>
+    <div class="time-cell passed">253</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Create Collection</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/collections/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers { &#39;x-api-key&#39;: &#39;#(apiKey)&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request CollectionRequest</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3266</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">18:23:55.919 request:
+1 &gt; POST https://api.getpostman.com/collections
+1 &gt; x-api-key: PMAK-67a1fd6a1bd33e0001398b39-8f7df1a19b801ffe2ebdd25b9b6fc3bdfb
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 650
+1 &gt; Host: api.getpostman.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;collection&quot;:{&quot;info&quot;:{&quot;name&quot;:&quot;Roryn Drumm&quot;,&quot;description&quot;:&quot;This collection makes a request to the Postman Echo service to get a list of request headers sent by an HTTP client.&quot;,&quot;schema&quot;:&quot;https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json&quot;},&quot;item&quot;:[{&quot;name&quot;:&quot;Test GET Response&quot;,&quot;event&quot;:[{&quot;listen&quot;:&quot;test&quot;,&quot;script&quot;:{&quot;id&quot;:&quot;7d2334fc-a84a-4c3d-b26c-7529afa4c0ae&quot;,&quot;exec&quot;:[&quot;pm.test(\&quot;Status code is 200\&quot;, function () {&quot;,&quot;    pm.response.to.have.status(200);&quot;,&quot;});&quot;],&quot;type&quot;:&quot;text\/javascript&quot;}}],&quot;request&quot;:{&quot;url&quot;:&quot;https:\/\/echo.getpostman.com\/headers&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;header&quot;:[{&quot;key&quot;:&quot;Content-Type&quot;,&quot;value&quot;:&quot;application\/json&quot;}]}}]}}
+
+18:23:58.918 response time in milliseconds: 2998
+1 &lt; 200
+1 &lt; Date: Thu, 13 Feb 2025 12:53:58 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 135
+1 &lt; Connection: keep-alive
+1 &lt; Server: nginx
+1 &lt; x-frame-options: deny
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; x-content-type-options: nosniff
+1 &lt; referrer-policy: no-referrer-when-downgrade
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-methods: GET,POST,PUT,DELETE
+1 &lt; access-control-allow-headers: content-type,x-api-key
+1 &lt; access-control-allow-credentials: false
+1 &lt; x-ratelimit-limit: 300
+1 &lt; x-ratelimit-reset: 58
+1 &lt; x-ratelimit-remaining: 296
+1 &lt; ratelimit: limit=300, remaining=296, reset=58
+1 &lt; ratelimit-policy: 300;w=60
+1 &lt; ratelimit-limit: 300
+1 &lt; ratelimit-remaining: 296
+1 &lt; ratelimit-reset: 58
+1 &lt; ratelimit-limit-month: 10000
+1 &lt; ratelimit-remaining-month: 7140
+1 &lt; x-ratelimit-limit-month: 10000
+1 &lt; x-ratelimit-remaining-month: 7140
+1 &lt; uWebSockets: 20
+{&quot;collection&quot;:{&quot;id&quot;:&quot;eb102035-aa15-48aa-9e37-48099de86525&quot;,&quot;name&quot;:&quot;Roryn Drumm&quot;,&quot;uid&quot;:&quot;32384855-eb102035-aa15-48aa-9e37-48099de86525&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.collection.name == CollectionRequest.collection.info.name</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def collectionID = response.collection.id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print collectionID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">18:23:58.926 [print] eb102035-aa15-48aa-9e37-48099de86525 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Get Collection By Id</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/collections/&#39; + collectionID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers { &#39;x-api-key&#39;: &#39;#(apiKey)&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1016</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.27">18:23:58.934 request:
+2 &gt; GET https://api.getpostman.com/collections/eb102035-aa15-48aa-9e37-48099de86525
+2 &gt; x-api-key: PMAK-67a1fd6a1bd33e0001398b39-8f7df1a19b801ffe2ebdd25b9b6fc3bdfb
+2 &gt; Host: api.getpostman.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+18:23:59.944 response time in milliseconds: 1008
+2 &lt; 200
+2 &lt; Date: Thu, 13 Feb 2025 12:53:59 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Content-Length: 1044
+2 &lt; Connection: keep-alive
+2 &lt; Server: nginx
+2 &lt; x-frame-options: deny
+2 &lt; x-xss-protection: 1; mode=block
+2 &lt; x-content-type-options: nosniff
+2 &lt; referrer-policy: no-referrer-when-downgrade
+2 &lt; access-control-allow-origin: *
+2 &lt; access-control-allow-methods: GET,POST,PUT,DELETE
+2 &lt; access-control-allow-headers: content-type,x-api-key
+2 &lt; access-control-allow-credentials: false
+2 &lt; x-ratelimit-limit: 300
+2 &lt; x-ratelimit-reset: 56
+2 &lt; x-ratelimit-remaining: 292
+2 &lt; ratelimit: limit=300, remaining=292, reset=56
+2 &lt; ratelimit-policy: 300;w=60
+2 &lt; ratelimit-limit: 300
+2 &lt; ratelimit-remaining: 292
+2 &lt; ratelimit-reset: 56
+2 &lt; ratelimit-limit-month: 10000
+2 &lt; ratelimit-remaining-month: 7136
+2 &lt; x-ratelimit-limit-month: 10000
+2 &lt; x-ratelimit-remaining-month: 7136
+2 &lt; last-modified: 2025-02-13T12:53:58.000Z
+2 &lt; uWebSockets: 20
+{&quot;collection&quot;:{&quot;info&quot;:{&quot;_postman_id&quot;:&quot;eb102035-aa15-48aa-9e37-48099de86525&quot;,&quot;name&quot;:&quot;Roryn Drumm&quot;,&quot;description&quot;:&quot;This collection makes a request to the Postman Echo service to get a list of request headers sent by an HTTP client.&quot;,&quot;schema&quot;:&quot;https://schema.getpostman.com/json/collection/v2.1.0/collection.json&quot;,&quot;updatedAt&quot;:&quot;2025-02-13T12:53:58.000Z&quot;,&quot;createdAt&quot;:&quot;2025-02-13T12:53:58.000Z&quot;,&quot;lastUpdatedBy&quot;:&quot;32384855&quot;,&quot;uid&quot;:&quot;32384855-eb102035-aa15-48aa-9e37-48099de86525&quot;},&quot;item&quot;:[{&quot;name&quot;:&quot;Test GET Response&quot;,&quot;event&quot;:[{&quot;listen&quot;:&quot;test&quot;,&quot;script&quot;:{&quot;id&quot;:&quot;7d2334fc-a84a-4c3d-b26c-7529afa4c0ae&quot;,&quot;exec&quot;:[&quot;pm.test(\&quot;Status code is 200\&quot;, function () {&quot;,&quot;    pm.response.to.have.status(200);&quot;,&quot;});&quot;],&quot;type&quot;:&quot;text/javascript&quot;}}],&quot;id&quot;:&quot;0ea29343-d5fb-446c-851a-f890eea0ea51&quot;,&quot;request&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;header&quot;:[{&quot;key&quot;:&quot;Content-Type&quot;,&quot;value&quot;:&quot;application/json&quot;}],&quot;url&quot;:{&quot;raw&quot;:&quot;https://echo.getpostman.com/headers&quot;,&quot;protocol&quot;:&quot;https&quot;,&quot;host&quot;:[&quot;echo&quot;,&quot;getpostman&quot;,&quot;com&quot;],&quot;path&quot;:[&quot;headers&quot;]}},&quot;response&quot;:[],&quot;uid&quot;:&quot;32384855-0ea29343-d5fb-446c-851a-f890eea0ea51&quot;}]}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.collection.info.name == CollectionRequest.collection.info.name</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.collection.info._postman_id == collectionID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Delete Collection By Id</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/collections/&#39; + collectionID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers { &#39;x-api-key&#39;: &#39;#(apiKey)&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request CollectionRequest</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1755</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.38">18:23:59.955 request:
+3 &gt; DELETE https://api.getpostman.com/collections/eb102035-aa15-48aa-9e37-48099de86525
+3 &gt; x-api-key: PMAK-67a1fd6a1bd33e0001398b39-8f7df1a19b801ffe2ebdd25b9b6fc3bdfb
+3 &gt; Content-Type: application/json; charset=UTF-8
+3 &gt; Content-Length: 650
+3 &gt; Host: api.getpostman.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+3 &gt; Accept-Encoding: gzip,deflate
+{&quot;collection&quot;:{&quot;info&quot;:{&quot;name&quot;:&quot;Roryn Drumm&quot;,&quot;description&quot;:&quot;This collection makes a request to the Postman Echo service to get a list of request headers sent by an HTTP client.&quot;,&quot;schema&quot;:&quot;https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json&quot;},&quot;item&quot;:[{&quot;name&quot;:&quot;Test GET Response&quot;,&quot;event&quot;:[{&quot;listen&quot;:&quot;test&quot;,&quot;script&quot;:{&quot;id&quot;:&quot;7d2334fc-a84a-4c3d-b26c-7529afa4c0ae&quot;,&quot;exec&quot;:[&quot;pm.test(\&quot;Status code is 200\&quot;, function () {&quot;,&quot;    pm.response.to.have.status(200);&quot;,&quot;});&quot;],&quot;type&quot;:&quot;text\/javascript&quot;}}],&quot;request&quot;:{&quot;url&quot;:&quot;https:\/\/echo.getpostman.com\/headers&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;header&quot;:[{&quot;key&quot;:&quot;Content-Type&quot;,&quot;value&quot;:&quot;application\/json&quot;}]}}]}}
+
+18:24:01.707 response time in milliseconds: 1751
+3 &lt; 200
+3 &lt; Date: Thu, 13 Feb 2025 12:54:01 GMT
+3 &lt; Content-Type: application/json; charset=utf-8
+3 &lt; Content-Length: 114
+3 &lt; Connection: keep-alive
+3 &lt; Server: nginx
+3 &lt; x-frame-options: deny
+3 &lt; x-xss-protection: 1; mode=block
+3 &lt; x-content-type-options: nosniff
+3 &lt; referrer-policy: no-referrer-when-downgrade
+3 &lt; access-control-allow-origin: *
+3 &lt; access-control-allow-methods: GET,POST,PUT,DELETE
+3 &lt; access-control-allow-headers: content-type,x-api-key
+3 &lt; access-control-allow-credentials: false
+3 &lt; x-ratelimit-limit: 300
+3 &lt; x-ratelimit-reset: 55
+3 &lt; x-ratelimit-remaining: 288
+3 &lt; ratelimit: limit=300, remaining=288, reset=55
+3 &lt; ratelimit-policy: 300;w=60
+3 &lt; ratelimit-limit: 300
+3 &lt; ratelimit-remaining: 288
+3 &lt; ratelimit-reset: 55
+3 &lt; ratelimit-limit-month: 10000
+3 &lt; ratelimit-remaining-month: 7132
+3 &lt; x-ratelimit-limit-month: 10000
+3 &lt; x-ratelimit-remaining-month: 7132
+3 &lt; uWebSockets: 20
+{&quot;collection&quot;:{&quot;id&quot;:&quot;eb102035-aa15-48aa-9e37-48099de86525&quot;,&quot;uid&quot;:&quot;32384855-eb102035-aa15-48aa-9e37-48099de86525&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.collection.id == collectionID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
