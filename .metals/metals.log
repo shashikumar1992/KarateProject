@@ -1243,3 +1243,215 @@ Feb 14, 2025 11:05:18 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint noti
 WARNING: Unsupported notification method: metals/windowStateDidChange
 2025.02.14 11:05:23 INFO  Shutting down server
 2025.02.14 11:05:23 INFO  shutting down Metals
+2025.02.14 11:06:03 INFO  Started: Metals version 1.5.1 in folders 'C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest' for client Visual Studio Code 1.97.2.
+2025.02.14 11:06:08 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:08 INFO  Attempting to connect to the build server...
+2025.02.14 11:06:08 INFO  Found a Bloop server running
+2025.02.14 11:06:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\bsp.trace.json or C:\Users\ShashiKumarSidhhalin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.02.14 11:06:10 INFO  time: Connected to build server in 2.02s
+2025.02.14 11:06:10 INFO  Connected to Build server: Bloop v2.0.8
+2025.02.14 11:06:10 INFO  time: Imported build in 0.18s
+2025.02.14 11:06:10 INFO  running doctor check
+2025.02.14 11:06:10 INFO  java targets: APITest-test, APITest
+2025.02.14 11:06:15 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:16 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:23 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:23 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:23 INFO  time: indexed workspace in 12s
+2025.02.14 11:06:23 WARN  no build target for: C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataBaseConnection.java
+2025.02.14 11:06:23 WARN  no build target for: C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala
+2025.02.14 11:06:23 WARN  no build target for: C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\TestRunner.java
+2025.02.14 11:06:23 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:23 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:24 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:24 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:25 INFO  time: code lens generation in 1.47s
+2025.02.14 11:06:25 INFO  time: code lens generation in 1.47s
+2025.02.14 11:06:24 INFO  time: code lens generation in 1.01s
+2025.02.14 11:06:27 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:33 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:33 ERROR Could not find the correct names for arguments at TextDocumentPositionParams [
+  textDocument = TextDocumentIdentifier [
+    uri = "file:///c%3A/Users/ShashiKumarSidhhalin/Desktop/NewProject/APITest/src/test/java/PostmanAPI/Performance/PerformaceTest.scala"
+  ]
+  position = Position [
+    line = 11
+    character = 3
+  ]
+] with indices 0
+2025.02.14 11:06:33 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:42 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:42 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:42 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:44 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:54 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:06:54 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:09 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataBaseConnection.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:09 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataBaseConnection.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:10 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:10 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:11 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:51 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:51 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:53 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:53 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:53 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:53 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:53 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:53 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:54 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:54 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:55 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:55 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:55 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 11:07:56 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\metals-full\2025-02-14\r_empty-definition_10-49-19-048.md)
+2025.02.14 11:07:55 WARN  no build target for: C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala
+2025.02.14 11:07:56 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:59 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:07:59 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:00 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:00 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:00 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:01 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:01 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:03 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:03 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:04 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:04 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:05 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:05 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:05 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:06 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:06 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:10 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:10 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 11:08:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 108
+2025.02.14 11:08:19 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:19 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:20 WARN  no build target for: C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala
+2025.02.14 11:08:20 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:22 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:54 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataBaseConnection.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:08:54 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\TestRunner.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 11:08:56 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:09:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:10:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:13:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:13:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:14:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:17:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:17:59 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:18:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:18:03 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:18:07 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:19:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:19:37 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:19:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.14 11:19:47 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:19:47 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:19:49 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:19:50 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\TestRunner.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:19:50 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\TestRunner.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 11:19:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 133
+Feb 14, 2025 11:19:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 140
+Feb 14, 2025 11:19:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\metals-full\2025-02-14\r_compiler-error_11-19-52-111.md
+2025.02.14 11:19:52 INFO  time: code lens generation in 2.3s
+Feb 14, 2025 11:20:55 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:22:53 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.14 11:24:00 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\TestRunner.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 11:24:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\metals-full\2025-02-14\r_compiler-error_11-24-00-984.md
+Feb 14, 2025 11:24:12 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:24:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:25:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:25:20 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:25:27 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:26:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:26:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:26:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.14 11:26:33 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:26:33 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:26:33 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:26:43 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:26:48 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 11:27:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:28:59 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:32:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:32:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:33:55 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:35:03 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:35:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:35:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:35:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:35:34 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:35:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 14, 2025 11:36:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:37:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.14 11:38:29 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:38:30 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 11:38:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 185
+Feb 14, 2025 11:38:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 186
+Feb 14, 2025 11:38:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 189
+Feb 14, 2025 11:38:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:38:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 191
+Feb 14, 2025 11:38:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 187
+Feb 14, 2025 11:38:33 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.14 11:38:42 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 11:38:44 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\PostmanAPI\Performance\PerformaceTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 11:38:53 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:39:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:40:55 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:41:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
