@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-02-13 06:25:27 PM</div>
+    <div>2025-02-14 11:24:41 AM</div>
   </div>
 </div>
 
@@ -81,7 +81,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>5144</span>
+              <span>ms:</span>&nbsp;<span>4417</span>
             </div>
           </div>
           <div class="step-row">
@@ -113,7 +113,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">18:25:05.069 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">11:24:08.131 karate.env system property was: null 
 </div>   
 
   
@@ -133,7 +133,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def CollectionRequest = read(&#39;classpath:helpers/JSON/CollectionRequestData.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">82</div>
+    <div class="time-cell passed">84</div>
   </div>
 
    
@@ -161,7 +161,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def DataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">18</div>
+    <div class="time-cell passed">11</div>
   </div>
 
    
@@ -189,7 +189,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>set CollectionRequest.collection.info.name = DataGenerator.getRandomArticleValues().name</span>
       </div>
     </div>
-    <div class="time-cell passed">283</div>
+    <div class="time-cell passed">245</div>
   </div>
 
    
@@ -252,7 +252,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>headers { &#39;x-api-key&#39;: &#39;#(apiKey)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">6</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -280,7 +280,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request CollectionRequest</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -308,7 +308,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">2887</div>
+    <div class="time-cell passed">2549</div>
   </div>
 
    
@@ -317,22 +317,22 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.14">18:25:05.827 request:
+  <div class="preformatted" data-parent="0.14">11:24:08.769 request:
 1 &gt; POST https://api.getpostman.com/collections
 1 &gt; x-api-key: PMAK-67a1fd6a1bd33e0001398b39-8f7df1a19b801ffe2ebdd25b9b6fc3bdfb
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 652
+1 &gt; Content-Length: 646
 1 &gt; Host: api.getpostman.com
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;collection&quot;:{&quot;info&quot;:{&quot;name&quot;:&quot;Oznak zo Pahl&quot;,&quot;description&quot;:&quot;This collection makes a request to the Postman Echo service to get a list of request headers sent by an HTTP client.&quot;,&quot;schema&quot;:&quot;https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json&quot;},&quot;item&quot;:[{&quot;name&quot;:&quot;Test GET Response&quot;,&quot;event&quot;:[{&quot;listen&quot;:&quot;test&quot;,&quot;script&quot;:{&quot;id&quot;:&quot;7d2334fc-a84a-4c3d-b26c-7529afa4c0ae&quot;,&quot;exec&quot;:[&quot;pm.test(\&quot;Status code is 200\&quot;, function () {&quot;,&quot;    pm.response.to.have.status(200);&quot;,&quot;});&quot;],&quot;type&quot;:&quot;text\/javascript&quot;}}],&quot;request&quot;:{&quot;url&quot;:&quot;https:\/\/echo.getpostman.com\/headers&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;header&quot;:[{&quot;key&quot;:&quot;Content-Type&quot;,&quot;value&quot;:&quot;application\/json&quot;}]}}]}}
+{&quot;collection&quot;:{&quot;info&quot;:{&quot;name&quot;:&quot;Illifer&quot;,&quot;description&quot;:&quot;This collection makes a request to the Postman Echo service to get a list of request headers sent by an HTTP client.&quot;,&quot;schema&quot;:&quot;https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json&quot;},&quot;item&quot;:[{&quot;name&quot;:&quot;Test GET Response&quot;,&quot;event&quot;:[{&quot;listen&quot;:&quot;test&quot;,&quot;script&quot;:{&quot;id&quot;:&quot;7d2334fc-a84a-4c3d-b26c-7529afa4c0ae&quot;,&quot;exec&quot;:[&quot;pm.test(\&quot;Status code is 200\&quot;, function () {&quot;,&quot;    pm.response.to.have.status(200);&quot;,&quot;});&quot;],&quot;type&quot;:&quot;text\/javascript&quot;}}],&quot;request&quot;:{&quot;url&quot;:&quot;https:\/\/echo.getpostman.com\/headers&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;header&quot;:[{&quot;key&quot;:&quot;Content-Type&quot;,&quot;value&quot;:&quot;application\/json&quot;}]}}]}}
 
-18:25:08.420 response time in milliseconds: 2592
+11:24:11.075 response time in milliseconds: 2305
 1 &lt; 200
-1 &lt; Date: Thu, 13 Feb 2025 12:55:07 GMT
+1 &lt; Date: Fri, 14 Feb 2025 05:54:10 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Content-Length: 137
+1 &lt; Content-Length: 131
 1 &lt; Connection: keep-alive
 1 &lt; Server: nginx
 1 &lt; x-frame-options: deny
@@ -345,18 +345,18 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; access-control-allow-credentials: false
 1 &lt; x-ratelimit-limit: 300
 1 &lt; x-ratelimit-reset: 59
-1 &lt; x-ratelimit-remaining: 297
-1 &lt; ratelimit: limit=300, remaining=297, reset=59
+1 &lt; x-ratelimit-remaining: 298
+1 &lt; ratelimit: limit=300, remaining=298, reset=59
 1 &lt; ratelimit-policy: 300;w=60
 1 &lt; ratelimit-limit: 300
-1 &lt; ratelimit-remaining: 297
+1 &lt; ratelimit-remaining: 298
 1 &lt; ratelimit-reset: 59
 1 &lt; ratelimit-limit-month: 10000
-1 &lt; ratelimit-remaining-month: 7115
+1 &lt; ratelimit-remaining-month: 5638
 1 &lt; x-ratelimit-limit-month: 10000
-1 &lt; x-ratelimit-remaining-month: 7115
+1 &lt; x-ratelimit-remaining-month: 5638
 1 &lt; uWebSockets: 20
-{&quot;collection&quot;:{&quot;id&quot;:&quot;067ccb42-302a-42d5-a868-232669d8a90e&quot;,&quot;name&quot;:&quot;Oznak zo Pahl&quot;,&quot;uid&quot;:&quot;32384855-067ccb42-302a-42d5-a868-232669d8a90e&quot;}}
+{&quot;collection&quot;:{&quot;id&quot;:&quot;db4c45ca-db88-47f3-aa87-92f7d372c934&quot;,&quot;name&quot;:&quot;Illifer&quot;,&quot;uid&quot;:&quot;32384855-db4c45ca-db88-47f3-aa87-92f7d372c934&quot;}}
 
 </div>   
 
@@ -405,7 +405,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response.collection.name == CollectionRequest.collection.info.name</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">21</div>
   </div>
 
    
@@ -433,7 +433,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def collectionID = response.collection.id</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -461,7 +461,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>print &#39;Created Collection ID:&#39;, collectionID</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -470,7 +470,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.19">18:25:08.431 [print] Created Collection ID: 067ccb42-302a-42d5-a868-232669d8a90e 
+  <div class="preformatted" data-parent="0.19">11:24:11.103 [print] Created Collection ID: db4c45ca-db88-47f3-aa87-92f7d372c934 
 </div>   
 
   
@@ -643,7 +643,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">1845</div>
+    <div class="time-cell passed">1496</div>
   </div>
 
    
@@ -652,8 +652,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.35">18:25:08.435 request:
-2 &gt; GET https://api.getpostman.com/collections/067ccb42-302a-42d5-a868-232669d8a90e
+  <div class="preformatted" data-parent="0.35">11:24:11.107 request:
+2 &gt; GET https://api.getpostman.com/collections/db4c45ca-db88-47f3-aa87-92f7d372c934
 2 &gt; x-api-key: PMAK-67a1fd6a1bd33e0001398b39-8f7df1a19b801ffe2ebdd25b9b6fc3bdfb
 2 &gt; Host: api.getpostman.com
 2 &gt; Connection: Keep-Alive
@@ -661,9 +661,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 2 &gt; Accept-Encoding: gzip,deflate
 
 
-18:25:10.278 response time in milliseconds: 1841
+11:24:12.595 response time in milliseconds: 1487
 2 &lt; 500
-2 &lt; Date: Thu, 13 Feb 2025 12:55:09 GMT
+2 &lt; Date: Fri, 14 Feb 2025 05:54:11 GMT
 2 &lt; Content-Type: application/json; charset=utf-8
 2 &lt; Content-Length: 32
 2 &lt; Connection: keep-alive
@@ -678,16 +678,16 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 2 &lt; access-control-allow-credentials: false
 2 &lt; x-ratelimit-limit: 300
 2 &lt; x-ratelimit-reset: 57
-2 &lt; x-ratelimit-remaining: 293
-2 &lt; ratelimit: limit=300, remaining=293, reset=57
+2 &lt; x-ratelimit-remaining: 294
+2 &lt; ratelimit: limit=300, remaining=294, reset=57
 2 &lt; ratelimit-policy: 300;w=60
 2 &lt; ratelimit-limit: 300
-2 &lt; ratelimit-remaining: 293
+2 &lt; ratelimit-remaining: 294
 2 &lt; ratelimit-reset: 57
 2 &lt; ratelimit-limit-month: 10000
-2 &lt; ratelimit-remaining-month: 7112
+2 &lt; ratelimit-remaining-month: 5634
 2 &lt; x-ratelimit-limit-month: 10000
-2 &lt; x-ratelimit-remaining-month: 7112
+2 &lt; x-ratelimit-remaining-month: 5634
 2 &lt; uWebSockets: 20
 {&quot;error&quot;:{&quot;name&quot;:&quot;serverError&quot;}}
 
@@ -710,7 +710,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell failed">8</div>
+    <div class="time-cell failed">2</div>
   </div>
 
    
@@ -719,9 +719,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.36">18:25:10.289 classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceScheema.feature:36
+  <div class="preformatted" data-parent="0.36">11:24:12.607 classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceScheema.feature:36
 Then status 200
-status code was: 500, expected: 200, response time in milliseconds: 1841, url: https://api.getpostman.com/collections/067ccb42-302a-42d5-a868-232669d8a90e, response: 
+status code was: 500, expected: 200, response time in milliseconds: 1487, url: https://api.getpostman.com/collections/db4c45ca-db88-47f3-aa87-92f7d372c934, response: 
 {&quot;error&quot;:{&quot;name&quot;:&quot;serverError&quot;}}
 classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceScheema.feature:36
 </div>   

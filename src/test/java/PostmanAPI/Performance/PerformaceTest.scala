@@ -1,8 +1,9 @@
-package Performance
+package PostmanAPI.Performance
 
 import com.intuit.karate.gatling.PreDef._
 import io.gatling.core.Predef._
 import scala.concurrent.duration._
+import com.intuit.karate.gatling.PreDef.karateFeature
 
 class PerformanceTest extends Simulation {
 
@@ -13,26 +14,21 @@ class PerformanceTest extends Simulation {
   protocol.nameResolver = (req, ctx) => req.getHeader("karate-name")
   protocol.runner.karateEnv("perf")
 
-  // val createWorkSpaceScenario = scenario("Test the Create, Update, Get, and Delete workspace APIs")
-  //   .exec(karateFeature("C:\\Users\\ShashiKumarSidhhalin\\Desktop\\KarateProject\\PerformanceTest\\src\\test\\java\\PostmanAPI\\Performance\\createWorkSpace.feature"))
-
   val connexWebSiteScenario = scenario("Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.")
-    .exec(karateFeature("C:/Users/ShashiKumarSidhhalin/Desktop/KarateProject/APITest/src/test/java/PostmanAPI/Performance/TestCreateUpdateDeleteWorkSpaceAPI.feature"))
+    .exec(karateFeature("classpath:/PostmanAPI/APITEST/WorkSpaceFeature/TestCreateUpdateDeleteWorkSpaceAPI.feature"))
+
+  val consumerEnrollmentScenario = scenario("Test the Consumer Enrollment API")
+    .exec(karateFeature("classpath:/PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature"))
 
   setUp(
-    // createWorkSpaceScenario.inject(
-    //   atOnceUsers(1),
-    //   nothingFor(4.seconds),                         
-    //   constantUsersPerSec(1) during (10.seconds),
-    //   constantUsersPerSec(2) during (10.seconds),                        
-    //   rampUsersPerSec(1) to 2 during (2.seconds),
-    //   nothingFor(5.seconds),   
-    //   constantUsersPerSec(2) during (5.seconds)
-    // ),
-    
     connexWebSiteScenario.inject(
       atOnceUsers(2),
       rampUsersPerSec(1) to 3 during (5.seconds)
+    ),
+    
+    consumerEnrollmentScenario.inject(
+      atOnceUsers(5),
+      constantUsersPerSec(2) during (5.seconds)
     )
   ).protocols(protocol)
 }

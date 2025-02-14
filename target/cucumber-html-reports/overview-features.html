@@ -50,9 +50,9 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                278,
-                1,
-                5,
+                228,
+                3,
+                48,
                 0,
                 0
             ],
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 284) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 279) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -106,8 +106,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                17,
-                1
+                15,
+                3
             ],
             backgroundColor: [
                 "#00B000",
@@ -153,8 +153,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   9,
-                   1
+                   7,
+                   3
                ],
                backgroundColor: [
                 "#00B000",
@@ -228,7 +228,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>WorkSpaceTest</td>
-      <td>13 Feb 2025, 18:25</td>
+      <td>14 Feb 2025, 11:24</td>
     </tr>
   </tbody>
 </table>
@@ -325,19 +325,19 @@ $(document).ready(function() {
       <tr>
         <td class="tagname"><a href="report-feature_344407164.html">PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature</a></td>
 
-        <td      class="passed"    >52</td>
-        <td >0</td>
-        <td >0</td>
+        <td      class="passed"    >12</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >39</td>
         <td >0</td>
         <td >0</td>
         <td class="total">52</td>
 
-        <td  class="passed"    >1</td>
         <td >0</td>
+        <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="20903274800">20.903</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="31237941500">31.237</td>
+        <td class="failed">Failed</td>
       </tr>
       <tr>
         <td class="tagname"><a href="report-feature_1_3759597933.html">PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceScheema.feature</a></td>
@@ -353,25 +353,25 @@ $(document).ready(function() {
         <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="5143953300">5.143</td>
+        <td class="duration" data-value="4417454500">4.417</td>
         <td class="failed">Failed</td>
       </tr>
       <tr>
         <td class="tagname"><a href="report-feature_2_2007129328.html">PostmanAPI/APITEST/CollectionFeature/TestCreateUpdateGetAndDeleteCollections.feature</a></td>
 
-        <td      class="passed"    >24</td>
+        <td      class="passed"    >14</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >4</td>
         <td >0</td>
         <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">24</td>
+        <td class="total">19</td>
 
-        <td  class="passed"    >1</td>
         <td >0</td>
+        <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="5581058000">5.581</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="4418010200">4.418</td>
+        <td class="failed">Failed</td>
       </tr>
       <tr>
         <td class="tagname"><a href="report-feature_3_1796457034.html">PostmanAPI/APITEST/WorkSpaceFeature/TestCreateUpdateDeleteWorkSpaceAPI.feature</a></td>
@@ -387,7 +387,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">3</td>
 
-        <td class="duration" data-value="19752858300">19.752</td>
+        <td class="duration" data-value="17548924900">17.548</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
@@ -404,7 +404,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">5</td>
 
-        <td class="duration" data-value="6935472200">6.935</td>
+        <td class="duration" data-value="5386235100">5.386</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
@@ -421,7 +421,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="1951093200">1.951</td>
+        <td class="duration" data-value="1122862200">1.122</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
@@ -438,7 +438,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">2</td>
 
-        <td class="duration" data-value="3732468600">3.732</td>
+        <td class="duration" data-value="3992230600">3.992</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
@@ -455,7 +455,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">2</td>
 
-        <td class="duration" data-value="2236693300">2.236</td>
+        <td class="duration" data-value="2691585100">2.691</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
@@ -472,7 +472,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="1200679200">1.200</td>
+        <td class="duration" data-value="1213809100">1.213</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
@@ -489,7 +489,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="4805559000">4.805</td>
+        <td class="duration" data-value="6557350400">6.557</td>
         <td class="passed">Passed</td>
       </tr>
   </tbody>
@@ -497,33 +497,33 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>278</td>
-      <td>1</td>
-      <td>5</td>
+      <td>228</td>
+      <td>3</td>
+      <td>48</td>
       <td>0</td>
       <td>0</td>
-      <td>284</td>
+      <td>279</td>
 
-      <td>17</td>
-      <td>1</td>
+      <td>15</td>
+      <td>3</td>
       <td>18</td>
 
-      <td class="duration">1:12.243</td>
+      <td class="duration">1:18.586</td>
       <td>10</td>
     </tr>
     <tr>
       <td></td>
-      <td>97.89%</td>
-      <td>0.35%</td>
-      <td>1.76%</td>
+      <td>81.72%</td>
+      <td>1.08%</td>
+      <td>17.20%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>94.44%</td>
-      <td>5.56%</td>
+      <td>83.33%</td>
+      <td>16.67%</td>
       <td></td>
       <td></td>
-      <td>90.00%</td>
+      <td>70.00%</td>
     </tr>
   </tfoot>
 </table>

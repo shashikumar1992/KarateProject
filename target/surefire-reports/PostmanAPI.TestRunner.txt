@@ -1,4 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: PostmanAPI.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.258 s - in PostmanAPI.TestRunner
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.918 s <<< FAILURE! - in PostmanAPI.TestRunner
+PostmanAPI.TestRunner.testParallel  Time elapsed: 42.891 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 200, response time in milliseconds: 1732, url: https://api.getpostman.com/collections/03881e37-1c87-4aeb-8146-faccb781a13e, response: 
+{"error":{"name":"serverError"}}
+classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceScheema.feature:36
+status code was: 500, expected: 200, response time in milliseconds: 1415, url: https://api.getpostman.com/collections/5ae922ed-283e-45ec-a3c6-11169a063d3e, response: 
+{"error":{"message":"Internal server error occurred"}}
+classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateUpdateGetAndDeleteCollections.feature:33 ==> expected: <0> but was: <2>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at PostmanAPI.TestRunner.testParallel(TestRunner.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

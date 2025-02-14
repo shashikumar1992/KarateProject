@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>WorkSpaceTest</td>
-      <td>13 Feb 2025, 18:25</td>
+      <td>14 Feb 2025, 11:24</td>
     </tr>
   </tbody>
 </table>
@@ -115,7 +115,7 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_1_3759597933.html">PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceScheema.feature</a>
+      <a href="report-feature_344407164.html">PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature</a>
     </div>
 
 
@@ -123,14 +123,14 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">4.758</span>
+  <span class="lead-duration duration">30.861</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Validate Create Collection API Response Schema</span>
+  <span class="name">Consumer End to End CDW Enrollment.</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -159,6 +159,1272 @@ $(document).ready(function() {
   </div>
 
   <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+          <div class="comment indention"># consumerEnrollment</div>
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/consumerEnrollment'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">headers commonHeaders</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request consumerEnrollmentRequest</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When failed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">30.860</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
+          <a>http</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details  in ">
+        <pre>http call failed after 30855 milliseconds for url: https://bimhep-qa.bimnetworkstech.com/api/hostedEnrollment/consumerEnrollment
+java.net.SocketTimeoutException: Read timed out
+classpath:PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:25</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>11:24:08.769 request:
+1 &gt; POST https://bimhep-qa.bimnetworkstech.com/api/hostedEnrollment/consumerEnrollment
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: */*
+1 &gt; Content-Length: 217
+1 &gt; Host: bimhep-qa.bimnetworkstech.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;emailAddress&quot;:&quot;alberto7@test.com&quot;,&quot;firstName&quot;:&quot;Yvonne&quot;,&quot;lastName&quot;:&quot;Gelina&quot;,&quot;pin&quot;:&quot;9394&quot;,&quot;partnerId&quot;:&quot;MTI3&quot;,&quot;mobilePhoneNumber&quot;:&quot;777-735-8383&quot;,&quot;ConsumerDefinedFields&quot;:[&quot;&quot;,&quot;AUHW&quot;,&quot;022993543&quot;,&quot;V&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;]}
+
+11:24:39.423 java.net.SocketTimeoutException: Read timed out, http call failed after 30855 milliseconds for url: https://bimhep-qa.bimnetworkstech.com/api/hostedEnrollment/consumerEnrollment
+11:24:39.423 classpath:PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:25
+When method post
+http call failed after 30855 milliseconds for url: https://bimhep-qa.bimnetworkstech.com/api/hostedEnrollment/consumerEnrollment
+java.net.SocketTimeoutException: Read timed out
+classpath:PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:25
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">print 'Consumer Enrollment Response:', response</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Validate and extract response fields</div>
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">match response.payload contains { consumer_public_key: '#notnull', consumerAccessToken: '#notnull', consumer_id: '#notnull' }</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def consumer_public_key = response.payload.consumer_public_key</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def consumerAccessToken = response.payload.consumerAccessToken</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def consumer_id = response.payload.consumer_id</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># continueEnrollment</div>
+
+
+<div class="brief step-name-Given skipped">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/continueEnrollment'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">set continueEnrollmentRequest.Payload.PublicKey = consumer_public_key</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">set continueEnrollmentRequest.Payload.AccessToken = consumerAccessToken</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">headers commonHeaders</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">request continueEnrollmentRequest</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">print 'Continue Enrollment Response:', response</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># PostToWebhookOnIAVExit</div>
+
+
+<div class="brief step-name-Given skipped">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/PostToWebhookOnIAVExit'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">headers commonHeaders</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">request PostToWebhookOnIAVExit</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">print 'PostToWebhookOnIAVExit Response:', response</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Improved wait mechanism instead of sleep</div>
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">eval function wait(ms) { java.lang.Thread.sleep(ms) }</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">wait(5000)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># cdwMatchEnrollment</div>
+
+
+<div class="brief step-name-Given skipped">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/cdwMatchEnrollment'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">set cdwMatchEnrollment.Payload.PublicKey = consumer_public_key</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">set cdwMatchEnrollment.Payload.AccessToken = consumerAccessToken</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">print 'CDW Match Enrollment Request:', cdwMatchEnrollment</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">headers commonHeaders</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">request cdwMatchEnrollment</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">print 'CDW Match Enrollment Response:', response</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># confirmCdw</div>
+
+
+<div class="brief step-name-Given skipped">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/confirmCdw'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">set confirmCdw.Payload.PublicKey = consumer_public_key</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">set confirmCdw.Payload.AccessToken = consumerAccessToken</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">headers commonHeaders</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">request confirmCdw</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">print 'Confirm CDW Response:', response</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_1_3759597933.html">PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceScheema.feature</a>
+    </div>
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">4.076</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-5">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Validate Create Collection API Response Schema</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-5" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-6">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-6" class="inner-level collapse collapsable-details  in ">
       <div class="step">
           <div class="comment indention"># Create Collection</div>
 
@@ -194,7 +1460,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">headers { 'x-api-key': '#(apiKey)' }</span>
 
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -221,7 +1487,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">request CollectionRequest</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -248,7 +1514,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">2.887</span>
+  <span class="lead-duration duration">2.549</span>
 
 </div>
 
@@ -262,26 +1528,26 @@ $(document).ready(function() {
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
           <a>Doc string</a>
       </div>
-      <div id="msg-3" class="collapse collapsable-details">
-        <pre>18:25:05.827 request:
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>11:24:08.769 request:
 1 &gt; POST https://api.getpostman.com/collections
 1 &gt; x-api-key: PMAK-67a1fd6a1bd33e0001398b39-8f7df1a19b801ffe2ebdd25b9b6fc3bdfb
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 652
+1 &gt; Content-Length: 646
 1 &gt; Host: api.getpostman.com
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;collection&quot;:{&quot;info&quot;:{&quot;name&quot;:&quot;Oznak zo Pahl&quot;,&quot;description&quot;:&quot;This collection makes a request to the Postman Echo service to get a list of request headers sent by an HTTP client.&quot;,&quot;schema&quot;:&quot;https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json&quot;},&quot;item&quot;:[{&quot;name&quot;:&quot;Test GET Response&quot;,&quot;event&quot;:[{&quot;listen&quot;:&quot;test&quot;,&quot;script&quot;:{&quot;id&quot;:&quot;7d2334fc-a84a-4c3d-b26c-7529afa4c0ae&quot;,&quot;exec&quot;:[&quot;pm.test(\&quot;Status code is 200\&quot;, function () {&quot;,&quot;    pm.response.to.have.status(200);&quot;,&quot;});&quot;],&quot;type&quot;:&quot;text\/javascript&quot;}}],&quot;request&quot;:{&quot;url&quot;:&quot;https:\/\/echo.getpostman.com\/headers&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;header&quot;:[{&quot;key&quot;:&quot;Content-Type&quot;,&quot;value&quot;:&quot;application\/json&quot;}]}}]}}
+{&quot;collection&quot;:{&quot;info&quot;:{&quot;name&quot;:&quot;Illifer&quot;,&quot;description&quot;:&quot;This collection makes a request to the Postman Echo service to get a list of request headers sent by an HTTP client.&quot;,&quot;schema&quot;:&quot;https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json&quot;},&quot;item&quot;:[{&quot;name&quot;:&quot;Test GET Response&quot;,&quot;event&quot;:[{&quot;listen&quot;:&quot;test&quot;,&quot;script&quot;:{&quot;id&quot;:&quot;7d2334fc-a84a-4c3d-b26c-7529afa4c0ae&quot;,&quot;exec&quot;:[&quot;pm.test(\&quot;Status code is 200\&quot;, function () {&quot;,&quot;    pm.response.to.have.status(200);&quot;,&quot;});&quot;],&quot;type&quot;:&quot;text\/javascript&quot;}}],&quot;request&quot;:{&quot;url&quot;:&quot;https:\/\/echo.getpostman.com\/headers&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;header&quot;:[{&quot;key&quot;:&quot;Content-Type&quot;,&quot;value&quot;:&quot;application\/json&quot;}]}}]}}
 
-18:25:08.420 response time in milliseconds: 2592
+11:24:11.075 response time in milliseconds: 2305
 1 &lt; 200
-1 &lt; Date: Thu, 13 Feb 2025 12:55:07 GMT
+1 &lt; Date: Fri, 14 Feb 2025 05:54:10 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Content-Length: 137
+1 &lt; Content-Length: 131
 1 &lt; Connection: keep-alive
 1 &lt; Server: nginx
 1 &lt; x-frame-options: deny
@@ -294,18 +1560,18 @@ $(document).ready(function() {
 1 &lt; access-control-allow-credentials: false
 1 &lt; x-ratelimit-limit: 300
 1 &lt; x-ratelimit-reset: 59
-1 &lt; x-ratelimit-remaining: 297
-1 &lt; ratelimit: limit=300, remaining=297, reset=59
+1 &lt; x-ratelimit-remaining: 298
+1 &lt; ratelimit: limit=300, remaining=298, reset=59
 1 &lt; ratelimit-policy: 300;w=60
 1 &lt; ratelimit-limit: 300
-1 &lt; ratelimit-remaining: 297
+1 &lt; ratelimit-remaining: 298
 1 &lt; ratelimit-reset: 59
 1 &lt; ratelimit-limit-month: 10000
-1 &lt; ratelimit-remaining-month: 7115
+1 &lt; ratelimit-remaining-month: 5638
 1 &lt; x-ratelimit-limit-month: 10000
-1 &lt; x-ratelimit-remaining-month: 7115
+1 &lt; x-ratelimit-remaining-month: 5638
 1 &lt; uWebSockets: 20
-{&quot;collection&quot;:{&quot;id&quot;:&quot;067ccb42-302a-42d5-a868-232669d8a90e&quot;,&quot;name&quot;:&quot;Oznak zo Pahl&quot;,&quot;uid&quot;:&quot;32384855-067ccb42-302a-42d5-a868-232669d8a90e&quot;}}
+{&quot;collection&quot;:{&quot;id&quot;:&quot;db4c45ca-db88-47f3-aa87-92f7d372c934&quot;,&quot;name&quot;:&quot;Illifer&quot;,&quot;uid&quot;:&quot;32384855-db4c45ca-db88-47f3-aa87-92f7d372c934&quot;}}
 
 </pre>
       </div>
@@ -353,7 +1619,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">match response.collection.name == CollectionRequest.collection.info.name</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.021</span>
 
 </div>
 
@@ -380,7 +1646,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def collectionID = response.collection.id</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -407,7 +1673,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">print 'Created Collection ID:', collectionID</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -421,11 +1687,11 @@ $(document).ready(function() {
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8">
           <a>Doc string</a>
       </div>
-      <div id="msg-4" class="collapse collapsable-details">
-        <pre>18:25:08.431 [print] Created Collection ID: 067ccb42-302a-42d5-a868-232669d8a90e 
+      <div id="msg-8" class="collapse collapsable-details">
+        <pre>11:24:11.103 [print] Created Collection ID: db4c45ca-db88-47f3-aa87-92f7d372c934 
 </pre>
       </div>
     </div>
@@ -456,7 +1722,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">path '/collections/' + collectionID</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -510,7 +1776,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method get</span>
 
-  <span class="lead-duration duration">1.845</span>
+  <span class="lead-duration duration">1.496</span>
 
 </div>
 
@@ -524,12 +1790,12 @@ $(document).ready(function() {
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-9">
           <a>Doc string</a>
       </div>
-      <div id="msg-5" class="collapse collapsable-details">
-        <pre>18:25:08.435 request:
-2 &gt; GET https://api.getpostman.com/collections/067ccb42-302a-42d5-a868-232669d8a90e
+      <div id="msg-9" class="collapse collapsable-details">
+        <pre>11:24:11.107 request:
+2 &gt; GET https://api.getpostman.com/collections/db4c45ca-db88-47f3-aa87-92f7d372c934
 2 &gt; x-api-key: PMAK-67a1fd6a1bd33e0001398b39-8f7df1a19b801ffe2ebdd25b9b6fc3bdfb
 2 &gt; Host: api.getpostman.com
 2 &gt; Connection: Keep-Alive
@@ -537,9 +1803,9 @@ $(document).ready(function() {
 2 &gt; Accept-Encoding: gzip,deflate
 
 
-18:25:10.278 response time in milliseconds: 1841
+11:24:12.595 response time in milliseconds: 1487
 2 &lt; 500
-2 &lt; Date: Thu, 13 Feb 2025 12:55:09 GMT
+2 &lt; Date: Fri, 14 Feb 2025 05:54:11 GMT
 2 &lt; Content-Type: application/json; charset=utf-8
 2 &lt; Content-Length: 32
 2 &lt; Connection: keep-alive
@@ -554,16 +1820,16 @@ $(document).ready(function() {
 2 &lt; access-control-allow-credentials: false
 2 &lt; x-ratelimit-limit: 300
 2 &lt; x-ratelimit-reset: 57
-2 &lt; x-ratelimit-remaining: 293
-2 &lt; ratelimit: limit=300, remaining=293, reset=57
+2 &lt; x-ratelimit-remaining: 294
+2 &lt; ratelimit: limit=300, remaining=294, reset=57
 2 &lt; ratelimit-policy: 300;w=60
 2 &lt; ratelimit-limit: 300
-2 &lt; ratelimit-remaining: 293
+2 &lt; ratelimit-remaining: 294
 2 &lt; ratelimit-reset: 57
 2 &lt; ratelimit-limit-month: 10000
-2 &lt; ratelimit-remaining-month: 7112
+2 &lt; ratelimit-remaining-month: 5634
 2 &lt; x-ratelimit-limit-month: 10000
-2 &lt; x-ratelimit-remaining-month: 7112
+2 &lt; x-ratelimit-remaining-month: 5634
 2 &lt; uWebSockets: 20
 {&quot;error&quot;:{&quot;name&quot;:&quot;serverError&quot;}}
 
@@ -586,7 +1852,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">status 200</span>
 
-  <span class="lead-duration duration">0.007</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -597,11 +1863,11 @@ $(document).ready(function() {
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
           <a>status</a>
       </div>
-      <div id="msg-6" class="collapse collapsable-details  in ">
-        <pre>status code was: 500, expected: 200, response time in milliseconds: 1841, url: https://api.getpostman.com/collections/067ccb42-302a-42d5-a868-232669d8a90e, response: 
+      <div id="msg-10" class="collapse collapsable-details  in ">
+        <pre>status code was: 500, expected: 200, response time in milliseconds: 1487, url: https://api.getpostman.com/collections/db4c45ca-db88-47f3-aa87-92f7d372c934, response: 
 {&quot;error&quot;:{&quot;name&quot;:&quot;serverError&quot;}}
 classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceScheema.feature:36</pre>
       </div>
@@ -613,13 +1879,13 @@ classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceSchee
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
           <a>Doc string</a>
       </div>
-      <div id="msg-7" class="collapse collapsable-details">
-        <pre>18:25:10.289 classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceScheema.feature:36
+      <div id="msg-11" class="collapse collapsable-details">
+        <pre>11:24:12.607 classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceScheema.feature:36
 Then status 200
-status code was: 500, expected: 200, response time in milliseconds: 1841, url: https://api.getpostman.com/collections/067ccb42-302a-42d5-a868-232669d8a90e, response: 
+status code was: 500, expected: 200, response time in milliseconds: 1487, url: https://api.getpostman.com/collections/db4c45ca-db88-47f3-aa87-92f7d372c934, response: 
 {&quot;error&quot;:{&quot;name&quot;:&quot;serverError&quot;}}
 classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceScheema.feature:36
 </pre>
@@ -750,6 +2016,611 @@ classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateCollectionResponceSchee
 <div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">match response.collection.id == collectionID</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_2_2007129328.html">PostmanAPI/APITEST/CollectionFeature/TestCreateUpdateGetAndDeleteCollections.feature</a>
+    </div>
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">4.076</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-12">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Test create, get, update, and delete the Collection with a positive scenario.</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-12" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-13">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-13" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+          <div class="comment indention"># Create Collection</div>
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/collections/'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">headers { 'x-api-key': '#(apiKey)' }</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request CollectionRequest</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">2.687</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-14" class="collapse collapsable-details">
+        <pre>11:24:08.769 request:
+1 &gt; POST https://api.getpostman.com/collections
+1 &gt; x-api-key: PMAK-67a1fd6a1bd33e0001398b39-8f7df1a19b801ffe2ebdd25b9b6fc3bdfb
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 656
+1 &gt; Host: api.getpostman.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;collection&quot;:{&quot;info&quot;:{&quot;name&quot;:&quot;Darlessa Marbrand&quot;,&quot;description&quot;:&quot;This collection makes a request to the Postman Echo service to get a list of request headers sent by an HTTP client.&quot;,&quot;schema&quot;:&quot;https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json&quot;},&quot;item&quot;:[{&quot;name&quot;:&quot;Test GET Response&quot;,&quot;event&quot;:[{&quot;listen&quot;:&quot;test&quot;,&quot;script&quot;:{&quot;id&quot;:&quot;7d2334fc-a84a-4c3d-b26c-7529afa4c0ae&quot;,&quot;exec&quot;:[&quot;pm.test(\&quot;Status code is 200\&quot;, function () {&quot;,&quot;    pm.response.to.have.status(200);&quot;,&quot;});&quot;],&quot;type&quot;:&quot;text\/javascript&quot;}}],&quot;request&quot;:{&quot;url&quot;:&quot;https:\/\/echo.getpostman.com\/headers&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;header&quot;:[{&quot;key&quot;:&quot;Content-Type&quot;,&quot;value&quot;:&quot;application\/json&quot;}]}}]}}
+
+11:24:11.214 response time in milliseconds: 2444
+1 &lt; 200
+1 &lt; Date: Fri, 14 Feb 2025 05:54:10 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 141
+1 &lt; Connection: keep-alive
+1 &lt; Server: nginx
+1 &lt; x-frame-options: deny
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; x-content-type-options: nosniff
+1 &lt; referrer-policy: no-referrer-when-downgrade
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-methods: GET,POST,PUT,DELETE
+1 &lt; access-control-allow-headers: content-type,x-api-key
+1 &lt; access-control-allow-credentials: false
+1 &lt; x-ratelimit-limit: 300
+1 &lt; x-ratelimit-reset: 59
+1 &lt; x-ratelimit-remaining: 299
+1 &lt; ratelimit: limit=300, remaining=299, reset=59
+1 &lt; ratelimit-policy: 300;w=60
+1 &lt; ratelimit-limit: 300
+1 &lt; ratelimit-remaining: 299
+1 &lt; ratelimit-reset: 59
+1 &lt; ratelimit-limit-month: 10000
+1 &lt; ratelimit-remaining-month: 5639
+1 &lt; x-ratelimit-limit-month: 10000
+1 &lt; x-ratelimit-remaining-month: 5639
+1 &lt; uWebSockets: 20
+{&quot;collection&quot;:{&quot;id&quot;:&quot;5ecd00be-d186-412b-9dbe-817cffa10b90&quot;,&quot;name&quot;:&quot;Darlessa Marbrand&quot;,&quot;uid&quot;:&quot;32384855-5ecd00be-d186-412b-9dbe-817cffa10b90&quot;}}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def collectionID = response.collection.id</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print collectionID</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-15" class="collapse collapsable-details">
+        <pre>11:24:11.220 [print] 5ecd00be-d186-412b-9dbe-817cffa10b90 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Get Collection By Id</div>
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/collections/' + collectionID</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">headers { 'x-api-key': '#(apiKey)' }</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method get</span>
+
+  <span class="lead-duration duration">1.365</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-16">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-16" class="collapse collapsable-details">
+        <pre>11:24:11.224 request:
+2 &gt; GET https://api.getpostman.com/collections/5ecd00be-d186-412b-9dbe-817cffa10b90
+2 &gt; x-api-key: PMAK-67a1fd6a1bd33e0001398b39-8f7df1a19b801ffe2ebdd25b9b6fc3bdfb
+2 &gt; Host: api.getpostman.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+11:24:12.586 response time in milliseconds: 1361
+2 &lt; 500
+2 &lt; Date: Fri, 14 Feb 2025 05:54:11 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Content-Length: 32
+2 &lt; Connection: keep-alive
+2 &lt; Server: nginx
+2 &lt; x-frame-options: deny
+2 &lt; x-xss-protection: 1; mode=block
+2 &lt; x-content-type-options: nosniff
+2 &lt; referrer-policy: no-referrer-when-downgrade
+2 &lt; access-control-allow-origin: *
+2 &lt; access-control-allow-methods: GET,POST,PUT,DELETE
+2 &lt; access-control-allow-headers: content-type,x-api-key
+2 &lt; access-control-allow-credentials: false
+2 &lt; x-ratelimit-limit: 300
+2 &lt; x-ratelimit-reset: 57
+2 &lt; x-ratelimit-remaining: 293
+2 &lt; ratelimit: limit=300, remaining=293, reset=57
+2 &lt; ratelimit-policy: 300;w=60
+2 &lt; ratelimit-limit: 300
+2 &lt; ratelimit-remaining: 293
+2 &lt; ratelimit-reset: 57
+2 &lt; ratelimit-limit-month: 10000
+2 &lt; ratelimit-remaining-month: 5633
+2 &lt; x-ratelimit-limit-month: 10000
+2 &lt; x-ratelimit-remaining-month: 5633
+2 &lt; uWebSockets: 20
+{&quot;error&quot;:{&quot;name&quot;:&quot;serverError&quot;}}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.015</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-17">
+          <a>status</a>
+      </div>
+      <div id="msg-17" class="collapse collapsable-details  in ">
+        <pre>status code was: 500, expected: 200, response time in milliseconds: 1361, url: https://api.getpostman.com/collections/5ecd00be-d186-412b-9dbe-817cffa10b90, response: 
+{&quot;error&quot;:{&quot;name&quot;:&quot;serverError&quot;}}
+classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateUpdateGetAndDeleteCollections.feature:26</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-18">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-18" class="collapse collapsable-details">
+        <pre>11:24:12.607 classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateUpdateGetAndDeleteCollections.feature:26
+Then status 200
+status code was: 500, expected: 200, response time in milliseconds: 1361, url: https://api.getpostman.com/collections/5ecd00be-d186-412b-9dbe-817cffa10b90, response: 
+{&quot;error&quot;:{&quot;name&quot;:&quot;serverError&quot;}}
+classpath:PostmanAPI/APITEST/CollectionFeature/TestCreateUpdateGetAndDeleteCollections.feature:26
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Delete Collection By Id</div>
+
+
+<div class="brief step-name-Given skipped">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/collections/' + collectionID</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">headers { 'x-api-key': '#(apiKey)' }</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method delete</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
 
   <span class="lead-duration duration">0.000</span>
 

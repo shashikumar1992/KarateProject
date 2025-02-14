@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>WorkSpaceTest</td>
-      <td>13 Feb 2025, 18:25</td>
+      <td>14 Feb 2025, 11:24</td>
     </tr>
   </tbody>
 </table>
@@ -138,7 +138,7 @@ $(document).ready(function() {
           <td >0</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="1951093200">1.951</td>
+          <td class="duration" data-value="1122862200">1.122</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -189,7 +189,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.057</span>
+  <span class="lead-duration duration">0.041</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -250,7 +250,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>18:25:12.314 karate.env system property was: null 
+        <pre>11:24:14.294 karate.env system property was: null 
 </pre>
       </div>
     </div>
@@ -269,33 +269,6 @@ $(document).ready(function() {
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def workSpaceRequest = read('classpath:helpers/JSON/WorkSpaceRequestDat.json')</span>
-
-  <span class="lead-duration duration">0.002</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def DataGenerator = Java.type('helpers.DataGenerator')</span>
 
   <span class="lead-duration duration">0.001</span>
 
@@ -322,9 +295,36 @@ $(document).ready(function() {
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
+  <span class="name">def DataGenerator = Java.type('helpers.DataGenerator')</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
   <span class="name">set workSpaceRequest.workspace.name = DataGenerator.getRandomArticleValues().name</span>
 
-  <span class="lead-duration duration">0.015</span>
+  <span class="lead-duration duration">0.010</span>
 
 </div>
 
@@ -351,7 +351,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">set workSpaceRequest.workspace.description = DataGenerator.getRandomArticleValues().description</span>
 
-  <span class="lead-duration duration">0.017</span>
+  <span class="lead-duration duration">0.013</span>
 
 </div>
 
@@ -378,7 +378,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">set workSpaceRequest.workspace.visibilityStatus = DataGenerator.getRandomArticleValues().visibilityStatus</span>
 
-  <span class="lead-duration duration">0.020</span>
+  <span class="lead-duration duration">0.014</span>
 
 </div>
 
@@ -416,7 +416,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.893</span>
+  <span class="lead-duration duration">1.081</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
@@ -459,7 +459,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">path '/workspaces'</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -486,7 +486,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">headers { 'x-api-key': '#(apiKey)' }</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -540,7 +540,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">1.887</span>
+  <span class="lead-duration duration">1.078</span>
 
 </div>
 
@@ -558,22 +558,22 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-6" class="collapse collapsable-details">
-        <pre>18:25:12.382 request:
+        <pre>11:24:14.340 request:
 1 &gt; POST https://api.getpostman.com/workspaces
 1 &gt; x-api-key: PMAK-67a1fd6a1bd33e0001398b39-8f7df1a19b801ffe2ebdd25b9b6fc3bdfb
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 146
+1 &gt; Content-Length: 127
 1 &gt; Host: api.getpostman.com
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;workspace&quot;:{&quot;name&quot;:&quot;Perra Frey&quot;,&quot;type&quot;:&quot;personal&quot;,&quot;description&quot;:&quot;Volantis&quot;,&quot;visibilityStatus&quot;:&quot;All dwarfs are bastards in their father's eyes&quot;}}
+{&quot;workspace&quot;:{&quot;name&quot;:&quot;Oznak zo Pahl&quot;,&quot;type&quot;:&quot;personal&quot;,&quot;description&quot;:&quot;Astapor&quot;,&quot;visibilityStatus&quot;:&quot;Do the dead frighten you?&quot;}}
 
-18:25:14.267 response time in milliseconds: 1884
+11:24:15.416 response time in milliseconds: 1075
 1 &lt; 200
-1 &lt; Date: Thu, 13 Feb 2025 12:55:13 GMT
+1 &lt; Date: Fri, 14 Feb 2025 05:54:14 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Content-Length: 79
+1 &lt; Content-Length: 82
 1 &lt; Connection: keep-alive
 1 &lt; Server: nginx
 1 &lt; x-frame-options: deny
@@ -585,19 +585,19 @@ $(document).ready(function() {
 1 &lt; access-control-allow-headers: content-type,x-api-key
 1 &lt; access-control-allow-credentials: false
 1 &lt; x-ratelimit-limit: 300
-1 &lt; x-ratelimit-reset: 52
-1 &lt; x-ratelimit-remaining: 282
-1 &lt; ratelimit: limit=300, remaining=282, reset=52
+1 &lt; x-ratelimit-reset: 54
+1 &lt; x-ratelimit-remaining: 283
+1 &lt; ratelimit: limit=300, remaining=283, reset=54
 1 &lt; ratelimit-policy: 300;w=60
 1 &lt; ratelimit-limit: 300
-1 &lt; ratelimit-remaining: 282
-1 &lt; ratelimit-reset: 52
+1 &lt; ratelimit-remaining: 283
+1 &lt; ratelimit-reset: 54
 1 &lt; ratelimit-limit-month: 10000
-1 &lt; ratelimit-remaining-month: 7101
+1 &lt; ratelimit-remaining-month: 5623
 1 &lt; x-ratelimit-limit-month: 10000
-1 &lt; x-ratelimit-remaining-month: 7101
+1 &lt; x-ratelimit-remaining-month: 5623
 1 &lt; uWebSockets: 20
-{&quot;workspace&quot;:{&quot;id&quot;:&quot;f1f06435-4941-45f1-bde0-8f50902e4c75&quot;,&quot;name&quot;:&quot;Perra Frey&quot;}}
+{&quot;workspace&quot;:{&quot;id&quot;:&quot;c982fad1-2d70-4c97-80cf-96e6151b9b58&quot;,&quot;name&quot;:&quot;Oznak zo Pahl&quot;}}
 
 </pre>
       </div>
