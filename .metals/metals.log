@@ -1463,3 +1463,100 @@ Feb 14, 2025 11:45:06 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint noti
 WARNING: Unsupported notification method: metals/windowStateDidChange
 Feb 14, 2025 11:45:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:46:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:46:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 11:47:07 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:08:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:09:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:09:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:16:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:16:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.14 12:17:35 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataBaseConnection.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 12:17:36 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataBaseConnection.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 12:17:35 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataBaseConnection.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 12:17:36 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataBaseConnection.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 12:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 203
+2025.02.14 12:17:37 INFO  time: code lens generation in 1.63s
+2025.02.14 12:17:37 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 12:17:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\metals-full\2025-02-14\r_compiler-error_12-17-38-053.md
+2025.02.14 12:17:38 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 12:17:37 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 12:17:39 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 12:17:40 INFO  time: code lens generation in 2.09s
+Feb 14, 2025 12:17:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\metals-full\2025-02-14\r_compiler-error_12-17-40-466.md
+2025.02.14 12:17:40 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 12:17:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\metals-full\2025-02-14\r_compiler-error_12-17-41-429.md
+2025.02.14 12:17:40 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 12:17:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\metals-full\2025-02-14\r_compiler-error_12-17-42-357.md
+2025.02.14 12:17:43 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 12:17:47 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 12:17:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\metals-full\2025-02-14\r_compiler-error_12-17-47-333.md
+2025.02.14 12:17:55 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 12:17:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\metals-full\2025-02-14\r_compiler-error_12-17-55-948.md
+2025.02.14 12:17:55 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 12:17:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\metals-full\2025-02-14\r_compiler-error_12-17-56-506.md
+2025.02.14 12:19:13 INFO  compiling apitest-test (1 scala source and 3 java sources)
+Feb 14, 2025 12:19:15 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: error while loading Object, Missing dependency 'object scala.native in compiler mirror', required by... (full report at: C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\bloop\2025-02-14\r_error while loading ..._12-19-15-889.md)
+2025.02.14 12:19:15 INFO  time: compiled APITest-test in 2.06s
+Feb 14, 2025 12:19:15 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+	at scal... (full report at: C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\bloop\2025-02-14\r_scala.reflect.intern..._12-19-15-942.md)
+Feb 14, 2025 12:19:15 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: Unexpected error when compiling APITest-test: scala.reflect.internal.MissingRequirementError: object... (full report at: C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\.metals\.reports\bloop\2025-02-14\r_Unexpected error whe..._12-19-15-952.md)
+2025.02.14 12:20:27 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 12:20:27 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 12:20:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:20:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:20:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:20:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.14 12:20:34 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataBaseConnection.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.14 12:20:38 INFO  no build target found for C:\Users\ShashiKumarSidhhalin\Desktop\NewProject\APITest\src\test\java\helpers\DataGenerator.java. Using presentation compiler with project's scala-library version: 3.3.4
+Feb 14, 2025 12:20:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:20:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:21:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:21:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:21:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:21:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:29:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:30:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:30:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:30:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:30:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:31:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:32:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 14, 2025 12:32:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
