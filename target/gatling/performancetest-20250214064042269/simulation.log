@@ -1,0 +1,180 @@
+RUN	PostmanAPI.Performance.PerformanceTest	performancetest	1739515242269	 	3.9.5
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515243723
+USER	Test the Consumer Enrollment API	START	1739515243723
+USER	Test the Consumer Enrollment API	START	1739515243723
+USER	Test the Consumer Enrollment API	START	1739515243723
+USER	Test the Consumer Enrollment API	START	1739515243723
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515243723
+USER	Test the Consumer Enrollment API	START	1739515243723
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515243723
+USER	Test the Consumer Enrollment API	START	1739515243723
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515243723
+USER	Test the Consumer Enrollment API	START	1739515243723
+USER	Test the Consumer Enrollment API	START	1739515243723
+USER	Test the Consumer Enrollment API	START	1739515243897
+USER	Test the Consumer Enrollment API	START	1739515244397
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515244420
+REQUEST		POST /workspaces	1739515246333	1739515248004	OK	 
+REQUEST		POST /workspaces	1739515246296	1739515248068	OK	 
+REQUEST		POST /workspaces	1739515246336	1739515248084	OK	 
+REQUEST		GET /workspaces/{wid}	1739515248050	1739515249181	OK	 
+REQUEST		GET /workspaces/{wid}	1739515248091	1739515249081	OK	 
+REQUEST		GET /workspaces/{wid}	1739515248104	1739515249235	OK	 
+REQUEST		PUT /workspaces/{wid}	1739515249196	1739515250215	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515250230	1739515251355	OK	 
+REQUEST		PUT /workspaces/{wid}	1739515249119	1739515250229	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515250240	1739515251377	OK	 
+REQUEST		PUT /workspaces/{wid}	1739515249249	1739515250317	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515250327	1739515251419	OK	 
+REQUEST		POST /workspaces	1739515251390	1739515252459	OK	 
+REQUEST		POST /workspaces	1739515251457	1739515252615	OK	 
+REQUEST		POST /workspaces	1739515251412	1739515252870	OK	 
+REQUEST		POST /workspaces	1739515252475	1739515253251	OK	 
+REQUEST		POST /workspaces	1739515252628	1739515253402	OK	 
+REQUEST		POST /workspaces	1739515252883	1739515253654	OK	 
+REQUEST		POST /workspaces	1739515253275	1739515254314	OK	 
+REQUEST		POST /workspaces	1739515253429	1739515254538	OK	 
+REQUEST		POST /workspaces	1739515253676	1739515254769	OK	 
+REQUEST		POST /workspaces	1739515254324	1739515255269	OK	 
+REQUEST		POST /workspaces	1739515254552	1739515255505	OK	 
+REQUEST		POST /workspaces	1739515254781	1739515255702	OK	 
+REQUEST		POST /workspaces	1739515255305	1739515256413	OK	 
+REQUEST		POST /workspaces	1739515255540	1739515256737	OK	 
+REQUEST		GET /workspaces/{wid}	1739515256428	1739515257688	OK	 
+REQUEST		GET /workspaces/{wid}	1739515256752	1739515257816	OK	 
+REQUEST		PUT /workspaces/{wid}	1739515257698	1739515258758	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515258765	1739515259832	OK	 
+REQUEST		PUT /workspaces/{wid}	1739515257826	1739515259110	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515259125	1739515260218	OK	 
+REQUEST		POST /workspaces	1739515259857	1739515261114	OK	 
+REQUEST		POST /workspaces	1739515260241	1739515261345	OK	 
+REQUEST		POST /workspaces	1739515261124	1739515261931	OK	 
+REQUEST		POST /workspaces	1739515261357	1739515262123	OK	 
+REQUEST		POST /workspaces	1739515261952	1739515263166	OK	 
+REQUEST		POST /workspaces	1739515262139	1739515263332	OK	 
+REQUEST		POST /workspaces	1739515263178	1739515264081	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515264091
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515264091
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515264091
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515264091
+REQUEST		POST /workspaces	1739515263347	1739515264275	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515264282
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515264290
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515264292
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515264293
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515264294
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515264294
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515264301
+USER	Test the Consumer Enrollment API	START	1739515264312
+USER	Test the Consumer Enrollment API	START	1739515264312
+USER	Test the Consumer Enrollment API	START	1739515264316
+USER	Test the Consumer Enrollment API	START	1739515264316
+USER	Test the Consumer Enrollment API	START	1739515264317
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	START	1739515264322
+REQUEST		POST /workspaces	1739515264335	1739515265540	OK	 
+REQUEST		GET /workspaces/{wid}	1739515265555	1739515266949	OK	 
+REQUEST		PUT /workspaces/{wid}	1739515266959	1739515267973	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515267982	1739515269290	OK	 
+REQUEST		POST /workspaces	1739515269306	1739515270614	OK	 
+REQUEST		POST /workspaces	1739515270624	1739515271390	OK	 
+REQUEST		POST /workspaces	1739515271407	1739515272487	OK	 
+REQUEST		POST /workspaces	1739515272499	1739515273484	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515273494
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515246535	1739515276950	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:25 method post
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515246546	1739515276950	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:25 method post
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515246558	1739515276949	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:25 method post
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515246535	1739515276950	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:25 method post
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515246536	1739515276949	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:25 method post
+REQUEST		POST /workspaces	1739515276998	1739515278635	OK	 
+REQUEST		POST /workspaces	1739515277001	1739515278665	OK	 
+REQUEST		POST /workspaces	1739515277006	1739515278726	OK	 
+REQUEST		GET /workspaces/{wid}	1739515278647	1739515279686	OK	 
+REQUEST		GET /workspaces/{wid}	1739515278748	1739515279733	OK	 
+REQUEST		GET /workspaces/{wid}	1739515278687	1739515280130	OK	 
+REQUEST		PUT /workspaces/{wid}	1739515279695	1739515280735	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515280746	1739515281816	OK	 
+REQUEST		PUT /workspaces/{wid}	1739515279743	1739515280825	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515280834	1739515282052	OK	 
+REQUEST		PUT /workspaces/{wid}	1739515280140	1739515281370	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515281378	1739515282546	OK	 
+REQUEST		POST /workspaces	1739515281834	1739515282902	OK	 
+REQUEST		POST /workspaces	1739515282076	1739515283143	OK	 
+REQUEST		POST /workspaces	1739515282567	1739515283605	OK	 
+REQUEST		POST /workspaces	1739515282912	1739515283706	OK	 
+REQUEST		POST /workspaces	1739515283152	1739515283953	OK	 
+REQUEST		POST /workspaces	1739515283618	1739515284409	OK	 
+REQUEST		POST /workspaces	1739515283721	1739515284877	OK	 
+REQUEST		POST /workspaces	1739515284423	1739515285589	OK	 
+REQUEST		POST /workspaces	1739515283968	1739515285590	OK	 
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515255750	1739515285785	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:25 method post
+REQUEST		POST /workspaces	1739515284890	1739515285805	OK	 
+USER	Test the Consumer Enrollment API	END	1739515285814
+USER	Test the Consumer Enrollment API	END	1739515285814
+USER	Test the Consumer Enrollment API	END	1739515285814
+USER	Test the Consumer Enrollment API	END	1739515285814
+USER	Test the Consumer Enrollment API	END	1739515285814
+USER	Test the Consumer Enrollment API	END	1739515285814
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515285814
+REQUEST		POST /workspaces	1739515285607	1739515286485	OK	 
+REQUEST		POST /workspaces	1739515285605	1739515286544	OK	 
+REQUEST		POST /workspaces	1739515285825	1739515286881	OK	 
+REQUEST		POST /workspaces	1739515286503	1739515287556	OK	 
+REQUEST		GET /workspaces/{wid}	1739515286893	1739515288098	OK	 
+REQUEST		GET /workspaces/{wid}	1739515287565	1739515288659	OK	 
+REQUEST		PUT /workspaces/{wid}	1739515288108	1739515289320	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515289328	1739515290389	OK	 
+REQUEST		PUT /workspaces/{wid}	1739515288670	1739515289720	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515289729	1739515290829	OK	 
+REQUEST		POST /workspaces	1739515290407	1739515291541	OK	 
+REQUEST		POST /workspaces	1739515290848	1739515291928	OK	 
+REQUEST		POST /workspaces	1739515291553	1739515292326	OK	 
+REQUEST		POST /workspaces	1739515291940	1739515292706	OK	 
+REQUEST		POST /workspaces	1739515292339	1739515293417	OK	 
+REQUEST		POST /workspaces	1739515292721	1739515293886	OK	 
+REQUEST		POST /workspaces	1739515293427	1739515294434	OK	 
+REQUEST		POST /workspaces	1739515293898	1739515294800	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515294807
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515294807
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515294807
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515294807
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515264139	1739515287621	OK	 
+REQUEST		POST /api/hostedEnrollment/continueEnrollment	1739515287643	1739515317681	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:41 method post
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515273538	1739515288647	OK	 
+REQUEST		POST /api/hostedEnrollment/continueEnrollment	1739515288665	1739515318710	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:41 method post
+USER	Test the Consumer Enrollment API	END	1739515318716
+USER	Test the Consumer Enrollment API	END	1739515318716
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515277029	1739515289554	OK	 
+REQUEST		POST /api/hostedEnrollment/continueEnrollment	1739515289575	1739515319615	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:41 method post
+USER	Test the Consumer Enrollment API	END	1739515319617
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515277028	1739515290595	OK	 
+REQUEST		POST /api/hostedEnrollment/continueEnrollment	1739515290612	1739515320666	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:41 method post
+USER	Test the Consumer Enrollment API	END	1739515320669
+REQUEST		POST /workspaces	1739515318731	1739515321360	OK	 
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515285849	1739515292732	OK	 
+REQUEST		POST /api/hostedEnrollment/continueEnrollment	1739515292752	1739515322805	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:41 method post
+USER	Test the Consumer Enrollment API	END	1739515322808
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515286578	1739515293115	OK	 
+REQUEST		POST /api/hostedEnrollment/continueEnrollment	1739515293137	1739515323190	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:41 method post
+USER	Test the Consumer Enrollment API	END	1739515323193
+REQUEST		GET /workspaces/{wid}	1739515321372	1739515322611	OK	 
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515294852	1739515324886	KO	PostmanAPI/APITEST/BuydirectEndToEndTest/consumerEnrollment.Feature:25 method post
+USER	Test the Consumer Enrollment API	END	1739515324888
+REQUEST		PUT /workspaces/{wid}	1739515322621	1739515324075	OK	 
+REQUEST		DELETE /workspaces/{wid}	1739515324083	1739515325206	OK	 
+REQUEST		POST /workspaces	1739515325220	1739515326484	OK	 
+REQUEST		POST /workspaces	1739515326493	1739515327292	OK	 
+REQUEST		POST /workspaces	1739515327307	1739515328359	OK	 
+REQUEST		POST /workspaces	1739515328369	1739515329297	OK	 
+USER	Test the Create, Update, Get, and Delete workspace APIs with positive scenarios.	END	1739515329304
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515294470	1739515324419	OK	 
+REQUEST		POST /api/hostedEnrollment/consumerEnrollment	1739515317713	1739515327233	OK	 
+REQUEST		POST /api/hostedEnrollment/continueEnrollment	1739515324440	1739515335131	OK	 
+REQUEST		POST /api/hostedEnrollment/continueEnrollment	1739515327252	1739515336163	OK	 
+REQUEST		POST /api/hostedEnrollment/PostToWebhookOnIAVExit	1739515335148	1739515336401	OK	 
+REQUEST		POST /api/hostedEnrollment/cdwMatchEnrollment	1739515341481	1739515342512	OK	 
+REQUEST		POST /api/hostedEnrollment/confirmCdw	1739515342531	1739515343637	OK	 
+USER	Test the Consumer Enrollment API	END	1739515343653
+REQUEST		POST /api/hostedEnrollment/PostToWebhookOnIAVExit	1739515336180	1739515337582	OK	 
+REQUEST		POST /api/hostedEnrollment/cdwMatchEnrollment	1739515342613	1739515343951	OK	 
+REQUEST		POST /api/hostedEnrollment/confirmCdw	1739515343967	1739515344989	OK	 
+USER	Test the Consumer Enrollment API	END	1739515345000
